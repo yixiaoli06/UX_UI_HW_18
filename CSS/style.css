@@ -1,0 +1,58 @@
+
+.inline-block{
+display: inline-block;
+vertical-align: top;
+}
+
+h1 {
+font-family: helvetica, arial, sans-serif;
+}
+
+.header{
+background-image: url(../images/BlueOrangeGradient.jpg);
+}
+
+.logo{
+width: 23%;
+padding: 1%;
+text-align: center;
+}
+
+.nav{
+width: 73%;
+padding: 1%;
+display: inline-block;
+background-color: grey;
+color: white;
+font-size: small;
+padding: 8px;
+}
+
+ul{
+width: 50%;
+margin-left: auto;
+}
+
+.heroImg{
+height: 600px;
+padding: 25px;
+background-color: black;
+}
+
+.content{
+width: 500px;
+margin: 0 auto;
+}
+
+.footer{
+background color: #373738;
+}
+
+.footer ul{
+padding: 25px;
+display: inline-block;
+}
+
+.footer li{
+padding: 4px;
+}

@@ -44,6 +44,31 @@ width: 500px;
 margin: 0 auto;
 }
 
+<!--  My UX Skills section coded using CSS flex -->
+
+.flexContainer{
+display: flex;
+flex-direction: row;
+}
+
+.flexContainer div{
+width: 33%
+margin: 0 auto;
+padding: 15px;
+}
+
+<!-- My Work Section Constructed using CSS Grid -->
+
+.workGrid div{
+grid-area: span;
+}
+
+.workGrid{
+display: grid;
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
 .footer{
 background color: #373738;
 }

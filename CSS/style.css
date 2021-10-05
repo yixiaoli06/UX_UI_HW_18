@@ -59,15 +59,30 @@ padding: 15px;
 
 <!-- My Work Section Constructed using CSS Grid -->
 
-.workGrid div{
-grid-area: span;
-}
-
 .workGrid{
 display: grid;
 grid-template-rows: 1fr 1fr;
 grid-template-columns: 1fr 1fr 1fr;
+grid-template-areas: 
+"CaseStudy1 GovernmentWebsiteRedesign"
+"NonProfitWebsiteRedesign CaseStudy2"
+"CaseStudy3 FinalProject";
 }
+
+@media only screen and (max-width: 600){
+flex-direction: column;
+width: 100%;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-columns: 1fr;
+grid-template-areas:
+"CaseStudy1"
+"GovernmentWebsiteRedesign"
+"NonProfitWebsiteRedesign"
+"CaseStudy2"
+"CaseStudy3"
+"FinalProject";
+}
+
 
 .footer{
 background color: #373738;

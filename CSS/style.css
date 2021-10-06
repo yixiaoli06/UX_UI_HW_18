@@ -44,7 +44,7 @@ width: 500px;
 margin: 0 auto;
 }
 
-<!--  My UX Skills section coded using CSS flex -->
+/* My UX Skills section coded using CSS flex */
 
 .flexContainer{
 display: flex;
@@ -57,7 +57,7 @@ margin: 0 auto;
 padding: 15px;
 }
 
-<!-- My Work Section Constructed using CSS Grid -->
+/* My Work Section Constructed using CSS Grid */
 
 .workGrid{
 display: grid;
